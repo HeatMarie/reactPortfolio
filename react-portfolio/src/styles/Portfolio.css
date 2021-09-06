@@ -1,0 +1,12 @@
+.portfolio {
+    text-align: center;
+    width:85%;
+    margin-top: 48px;
+    margin-bottom: 30px;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+}
+
