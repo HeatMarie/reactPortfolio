@@ -1,5 +1,5 @@
 import React from 'react'
-import furrydress from './furrydress.jpg'
+import furrydress from './images/furrydress.jpg'
 
 
 const Info = () => {
@@ -9,6 +9,7 @@ const Info = () => {
             <div className="col-9">
                 About Me 
             </div>
+
             <div className="col-4">
                 <img src={furrydress} alt="Heather in black dress" height="300px"></img>
 

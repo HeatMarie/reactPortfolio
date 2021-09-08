@@ -1,6 +1,6 @@
 .portfolio {
     text-align: center;
-    width:85%;
+    width:100%;
     margin-top: 48px;
     margin-bottom: 30px;
     font-family: 'Rage Italic', sans-serif;
@@ -8,5 +8,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4.5em;
+}
+
+#portfolio-section {
+    margin-bottom: 200px;
 }
 
