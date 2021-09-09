@@ -1,10 +1,12 @@
 import React from 'react'
 import Form from './Form'
 
+import '../styles/Contact.css';
+
 function Contact() {
     return (
         <div id="contact">
-            <h2>Contact</h2>
+            <h2 class="section-header">Contact</h2>
             <div>
                 <Form />
             </div>

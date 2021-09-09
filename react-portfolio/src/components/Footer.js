@@ -23,8 +23,8 @@ const Footer = () => {
             } }>Where imagination becomes <span style={ {
             fontFamily: 'Rage Italic',
             background: '-webkit-linear-gradient(#e39d01, #d83f03, #7d2800, #1a0101, #090101)',
-            webkitBackgroundClip: 'text',
-            webkitTextFillColor: 'transparent',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
             fontSize: '72px',
             marginLeft: '30px',
         } }>reality</span></h3>

@@ -5,8 +5,13 @@ import '../styles/Portfolio.css';
 const Portfolio = (props) => {
 
     const { projects } = props;
+    console.log('projects', projects)
 
-    const _renderProject = (item, index) => (
+
+    const _renderProject = (item, index) => {
+        console.log('ITEM', item)
+        
+        return (
         <div key={index} className="accordion-item">
             <h2 className="accordion-header" id="headingOne" style={{
                 color: 'white',
@@ -35,7 +40,7 @@ const Portfolio = (props) => {
                 </div>
             </div>
         </div>
-    );
+    )};
     
     return (
 

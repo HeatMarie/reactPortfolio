@@ -20,7 +20,7 @@ const Header = () => {
 
         switch(currentPage) {
             case 'Portfolio':
-                return <Portfolio projects={[projects]} />;
+                return <Portfolio projects={projects} />;
             case 'Contact':
                 return <Contact />;
             default:

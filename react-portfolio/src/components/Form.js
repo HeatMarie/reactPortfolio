@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import '../styles/Contact.css';
+
 
 import { validateEmail } from '../utils/helpers';
 
@@ -29,34 +31,56 @@ function Form() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        if (!validateEmail(email) || !firstName || !message) {
+        if (!validateEmail(email)) {
             setErorrMessage(`Please enter a valid email, first name, or message`);
         };
+
         setFirstName('');
         setLastName('');
         setEmail('');
         setMessage('');
     };
 
+    const nameValidation = firstName => {
+        if (!firstName) {
+            return`First name is require!`;
+        }
+    }
+
     return (
 
         <div>
-            <form className="form">
+            <form className="form" style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+
+            }}>
                 <input
+                    className="contact-input"
                     value={firstName}
                     name="firstName"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="First Name"
+                    required
                 />
+                            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
+
                 <input
+                    className="contact-input"
                     value={lastName}
                     name="lakeName"
-                    onChange={handleInputChange}
+                    onChange={handleInputChange} required
                     type="text"
                     placeholder="Last Name"
                 />
                 <input
+                    className="contact-input"
                     value={email}
                     name="email"
                     onChange={handleInputChange}
@@ -64,13 +88,14 @@ function Form() {
                     placeholder="email"
                 />
                 <textarea
+                    className="contact-input content-textarea"
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Please enter your message here."
                 />
-                <button type="button" onClick={handleFormSubmit}>
+                <button class="contact-btn" type="button" onClick={handleFormSubmit}>
                     Submit
                 </button>
             </form>

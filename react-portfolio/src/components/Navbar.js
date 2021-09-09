@@ -14,8 +14,8 @@ const Navbar = (props) => {
                         fontSize: '2em',
                         fontFamily: 'Rage Italic',
                         background: '-webkit-linear-gradient(#eee, #333)',
-                        webkitBackgroundClip: 'text',
-                        webkitTextFillColor: 'transparent',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
                         textAlign: 'center',
                         backgroundColor: 'black',
                         }} >

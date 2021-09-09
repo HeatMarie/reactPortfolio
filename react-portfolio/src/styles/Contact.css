@@ -1,0 +1,31 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section-header {
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.contact-input {
+    width: 50%;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.content-textarea {
+    height: 260px;
+}
+
+.contact-btn {
+    margin-bottom: 20px;
+    width: 15%;
+    height: 50px;
+
+}
