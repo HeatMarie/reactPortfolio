@@ -165,8 +165,9 @@ export default function Create() {
   const [nameError, setNameError] = useState(false)
   const [emailError, setEmailError] = useState(false)
   const [messageError, setMessageError] = useState(false)
-  const [errorMessage, setErrorMessage] = useState('');
-
+  const [errorMessageName, setErrorMessageName] = useState('');
+  const [errorMessageEmail, setErrorMessageEmail] = useState('')
+  const [errorMessageMessage, setErrorMessageMessage] = useState('')
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -193,23 +194,29 @@ export default function Create() {
 
   const handleNameBlur =() => {
     setNameError(false)
+    setErrorMessageName('')
     if (name === ''){
       setNameError(true);
+      setErrorMessageName('A name is required')
     }
 
   }
 
   const handleEmailBlur= () => {
     setEmailError(false)
+    setErrorMessageEmail('')
     if (email === '' || !validateEmail(email)) {
       setEmailError(true);
+      setErrorMessageEmail('Please enter a valid email')
     }
   }
 
   const handleMessageBlur = () => {
     setMessageError(false)
+    setErrorMessageMessage('')
     if (message === '') {
     setMessageError(true);
+    setErrorMessageMessage('A message is required')
     }
   }
 
@@ -233,8 +240,13 @@ export default function Create() {
           required
           error={nameError}
           onBlur={handleNameBlur}
-          helperText="Field is required"
+          helperText= {errorMessageName && (
+            <div>
+              <p className="error-text">{errorMessageName}</p>
+            </div>
+          )}
         />
+
           <TextField
           onChange={(e) => setEmail(e.target.value)}
           className={classes.field}
@@ -245,7 +257,13 @@ export default function Create() {
           required
           error={emailError}
           onBlur={handleEmailBlur}
+          helperText={errorMessageEmail && (
+            <div>
+              <p className="error-text">{errorMessageEmail}</p>
+            </div>
+          )}
         />
+
           <TextField
           onChange={(e) => setMessage(e.target.value)}
           className={classes.field}
@@ -258,6 +276,11 @@ export default function Create() {
           required
           error={messageError}
           onBlur={handleMessageBlur}
+          helperText={errorMessageMessage && (
+            <div>
+              <p className="error-text">{errorMessageMessage}</p>
+            </div>
+          )}
         />
 
         <Button 
