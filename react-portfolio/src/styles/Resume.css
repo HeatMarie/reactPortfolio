@@ -1,0 +1,44 @@
+.resume {
+    text-align: center;
+    width:100%;
+    margin-top: 48px;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+.headerBox, .introBox{
+    margin-top: 50px;
+}
+
+.introBox {
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projectBox{
+    margin: 32px 32px 8px 32px;
+}
+
+.skillsContainer {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.skillsBox {
+    margin-right: 50px;
+    margin-left: 50px;
+}

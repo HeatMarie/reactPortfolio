@@ -1,0 +1,37 @@
+.info {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width:100%;
+    margin-top: 48px;
+    margin-bottom: 30px;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+
+    img {
+        display: none;
+    }
+    .container{
+        flex-direction: row;
+
+    }
+
+    .info {
+        font-size: 3em;
+    }
+
+    
+}

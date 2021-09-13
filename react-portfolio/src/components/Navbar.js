@@ -37,6 +37,9 @@ const Navbar = (props) => {
                             <li className="nav-item">
                                 <a className={currentPage === 'Contact' ? 'nav-link' : 'nav-link'} aria-current="page" href="#contact" onClick={() => handlePageChange('Contact')} >Contact</a>
                             </li>
+                            <li className="nav-item">
+                                <a className={currentPage === 'Resume' ? 'nav-link' : 'nav-link'} aria-current="page" href="#resume" onClick={() => handlePageChange('Resume')} >Resume</a>
+                            </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Links

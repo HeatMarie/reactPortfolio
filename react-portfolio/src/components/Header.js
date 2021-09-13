@@ -5,6 +5,7 @@ import Portfolio from './Portfolio'
 import projects from './projects'
 import Info from './Info'
 import Contact from './Contact'
+import Resume from './Resume'
 
 const Header = () => {
     const [currentPage, setCurrentPage] = useState('Info')
@@ -23,6 +24,8 @@ const Header = () => {
                 return <Portfolio projects={projects} />;
             case 'Contact':
                 return <Contact />;
+            case 'Resume':
+                return <Resume />;
             default:
                 return <Info />;
         }

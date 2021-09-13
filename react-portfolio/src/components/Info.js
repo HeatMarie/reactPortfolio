@@ -1,5 +1,6 @@
 import React from 'react'
 import furrydress from './images/furrydress.jpg'
+import '../styles/AboutMe.css';
 
 
 const Info = () => {
@@ -7,7 +8,7 @@ const Info = () => {
     <div className="container">
         <div className="row">
             <div className="col-9">
-                About Me 
+                <h3 className="info">About Me </h3>
             </div>
 
             <div className="col-4">

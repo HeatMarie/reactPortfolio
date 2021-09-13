@@ -140,13 +140,14 @@
 
 
 import React, { useState } from 'react'
-import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
-import Container from '@material-ui/core/Container'
+import { Typography, Button, Container, IconButton, Link} from '@material-ui/core'
+
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight'
 import { makeStyles} from '@material-ui/core'
 import TextField from '@material-ui/core/TextField'
 import { validateEmail } from '../utils/helpers';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import SvgIcon from '@material-ui/core/SvgIcon';
 
 const useStyles = makeStyles({
   field: {
@@ -168,27 +169,9 @@ export default function Create() {
   const [errorMessageName, setErrorMessageName] = useState('');
   const [errorMessageEmail, setErrorMessageEmail] = useState('')
   const [errorMessageMessage, setErrorMessageMessage] = useState('')
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  
+  
 
-    setNameError(false);
-    setEmailError(false);
-    setMessageError(false);
-
-    if (name === ''){
-      setNameError(true)
-    };
-    if (email === '' || !validateEmail(email)){
-      setEmailError(true)
-    };
-    if (message === ''){
-      setMessageError(true)
-    };
-
-    if (name && email && message) {
-      console.log(name, email, message)
-    }
-  }
 
 
 
@@ -220,6 +203,36 @@ export default function Create() {
     }
   }
 
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    setNameError(false);
+    setEmailError(false);
+    setMessageError(false);
+
+    if (name === ''){
+      setNameError(true)
+    };
+    if (email === '' || !validateEmail(email)){
+      setEmailError(true)
+    };
+    if (message === ''){
+      setMessageError(true)
+    };
+
+
+    if (name && email && message) {
+      console.log(name, email, message)
+    }
+
+    setName('');
+    setEmail('');
+    setMessage('');
+
+
+  }
+
   return (
     <Container>
       <Typography
@@ -234,34 +247,28 @@ export default function Create() {
           onChange={(e) => setName(e.target.value)}
           className={classes.field}
           label="Name"
+          value={name}
           variant="outlined"
-          color="Primary"
+          color="primary"
           fullWidth
           required
           error={nameError}
           onBlur={handleNameBlur}
-          helperText= {errorMessageName && (
-            <div>
-              <p className="error-text">{errorMessageName}</p>
-            </div>
-          )}
+          helperText= {errorMessageName}
         />
 
           <TextField
           onChange={(e) => setEmail(e.target.value)}
           className={classes.field}
           label="Email"
+          value={email}
           variant="outlined"
-          color="Primary"
+          color="primary"
           fullWidth
           required
           error={emailError}
           onBlur={handleEmailBlur}
-          helperText={errorMessageEmail && (
-            <div>
-              <p className="error-text">{errorMessageEmail}</p>
-            </div>
-          )}
+          helperText={errorMessageEmail}
         />
 
           <TextField
@@ -269,22 +276,19 @@ export default function Create() {
           className={classes.field}
           label="Message"
           variant="outlined"
-          color="Primary"
+          color="primary"
+          value={message}
           multiline
           rows={4}
           fullWidth
           required
           error={messageError}
           onBlur={handleMessageBlur}
-          helperText={errorMessageMessage && (
-            <div>
-              <p className="error-text">{errorMessageMessage}</p>
-            </div>
-          )}
+          helperText={errorMessageMessage}
         />
 
         <Button 
-        onClick={() => console.log('you clicked me')}
+        onClick={handleSubmit}
         type="submit"
         color="secondary"
         variant="contained"
@@ -293,7 +297,7 @@ export default function Create() {
           Submit
         </Button>
       </form>
-
+ 
 
     </Container>
   )

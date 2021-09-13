@@ -1,40 +1,52 @@
 import React from 'react'
+import { Typography, Button, Container, IconButton, Link, createTheme, ThemeProvider} from '@material-ui/core'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import BookOutlinedIcon from '@material-ui/icons/BookOutlined';
+import { orange } from '@material-ui/core/colors';
+import '../styles/Footer.css';
+
 
 
 
 const Footer = () => {
+
+    const theme = createTheme({
+        palette: {
+            primary: {
+                main: "#bf360c"
+            }
+        }
+    })
+
     return (
-        <footer id="footer" style= { { 
-            display: 'flex',
-            flexWrap: 'wrap',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: 'rgb(16, 12, 10)',
-            padding: '30px',
-            marginBottom: '0px',
-            width: '100%',
-            zIndex: '2',
-        } } >
-            <h3 style={ { 
-                    display: 'flex',
-                    flexDirection: 'column',
-                    color: '#660c0c',
-            } }>Where imagination becomes <span style={ {
-            fontFamily: 'Rage Italic',
-            background: '-webkit-linear-gradient(#e39d01, #d83f03, #7d2800, #1a0101, #090101)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            fontSize: '72px',
-            marginLeft: '30px',
-        } }>reality</span></h3>
-            <p style={ {
-                    display: 'flex',
-                    flexDirection: 'column',
-                    fontSize: '16px',
-                    color: '#610b0b',
-            } }> { '\u00A9' } Heather Bjoin</p>
+        <ThemeProvider theme={theme}>
+        <footer id="footer">
+
+            <div style={{
+            marginBottom: '20px',
+            }}>
+                <Link className="links" href="https://github.com/HeatMarie" target="_blank">
+                <GitHubIcon style={{ fontSize: 45 }} color="primary"></GitHubIcon>
+
+                </Link>
+                <Link className="links" href="https://www.linkedin.com/in/heather-bjoin-bb833761/" target="_blank">
+                <LinkedInIcon style={{ fontSize: 45 }} color="primary"></LinkedInIcon>
+
+                </Link>
+                <Link className="links" href="https://heatmarie.com/" target="_blank">
+                <BookOutlinedIcon style={{ fontSize: 45 }} color="primary"></BookOutlinedIcon>
+
+                </Link>
+            </div>
+            <div className="footer">
+            <h4 className="footer-h3">Where imagination becomes <span className="footer-span">reality</span></h4>
+            <p className="footer-p"> { '\u00A9' } Heather Bjoin</p>
+            </div>
         </footer>
+
+        </ThemeProvider>
+
     )
 }
 
