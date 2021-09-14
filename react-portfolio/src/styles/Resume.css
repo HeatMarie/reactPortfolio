@@ -24,13 +24,19 @@
 
 }
 
+.project-header {
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
 .projects {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .projectBox{
-    margin: 32px 32px 8px 32px;
+    margin: 50px 78px 8px 78px;
 }
 
 .skillsContainer {
@@ -38,7 +44,22 @@
     padding-bottom: 50px;
 }
 
-.skillsBox {
+.skillsBox  {
     margin-right: 50px;
     margin-left: 50px;
 }
+
+.experience-container{
+    width: 90%;
+}
+
+.experience-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+}
+
+/* TODO: 
+    Media queries
+*/

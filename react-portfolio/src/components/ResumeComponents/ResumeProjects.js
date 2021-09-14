@@ -14,7 +14,7 @@ import {
         return(
             <Container>
             <Box className="projects">
-                <h2 className="projects">Projects</h2>
+                <h2 className="project-header">Projects</h2>
 
                 <Box>
                     <Box className="projectBox">

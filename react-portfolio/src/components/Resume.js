@@ -1,4 +1,15 @@
 import React from 'react';
+
+// Importing Resume Components
+
+import Skills from './ResumeComponents/Skills'
+import ResumeProjects from './ResumeComponents/ResumeProjects';
+import Experience from './ResumeComponents/Experience'
+import Education from './ResumeComponents/Education'
+import '../styles/Resume.css';
+
+// Importing material-us and it's components
+
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -17,13 +28,15 @@ import {
     Toolbar,
 
     } from '@material-ui/core/';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import Skills from './ResumeComponents/Skills'
-import ResumeProjects from './ResumeComponents/ResumeProjects';
+
+
+
+// Import images
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import '../styles/Resume.css';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -157,8 +170,14 @@ export default function Resume(props) {
         </Container>
         <ResumeProjects />
         <Skills />
+        <Experience />
+        <Education />
+        <Box>
+            <br></br>
+        </Box>
         </Paper>
         </Box>
+
     </Container>
 
       <ScrollTop {...props}>
