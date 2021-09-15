@@ -5,9 +5,9 @@ Portfolio take 2.
 
 ![GitHub User's stars](https://img.shields.io/github/stars/HeatMarie?color=%20%20%23c0640fb4&logo=github&logoColor=%20%20%23c0640fb4&style=for-the-badge)
 
-![GitHub top language](https://img.shields.io/github/languages/top/HeatMarie/fitnessTracker?color=%23c0640fb4&logo=github&logoColor=%23c0640fb4&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/HeatMarie/reactPortfolio?color=%23c0640fb4&logo=github&logoColor=%23c0640fb4&style=for-the-badge)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/HeatMarie/fitnessTracker?color=%23c0640fb4&logo=github&logoColor=%20%23c0640fb4&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/HeatMarie/reactPortfolio?color=%23c0640fb4&logo=github&logoColor=%20%23c0640fb4&style=for-the-badge)
 
   ## Table of Contents
   * [The Assignment](##Assignment)
