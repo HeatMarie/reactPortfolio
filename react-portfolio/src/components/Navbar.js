@@ -35,20 +35,10 @@ const Navbar = (props) => {
                                 <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link' : 'nav-link'}>Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className={currentPage === 'Contact' ? 'nav-link' : 'nav-link'} aria-current="page" href="#contact" onClick={() => handlePageChange('Contact')} >Contact</a>
+                                <a className={currentPage === 'Contact' ? 'nav-link' : 'nav-link'} aria-current="page" href="#Contact" onClick={() => handlePageChange('Contact')} >Contact</a>
                             </li>
                             <li className="nav-item">
                                 <a className={currentPage === 'Resume' ? 'nav-link' : 'nav-link'} aria-current="page" href="#resume" onClick={() => handlePageChange('Resume')} >Resume</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Links
-                                </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a className="dropdown-item" href="https://github.com/HeatMarie" target="_blank">Github</a></li>
-                                    <li><a className="dropdown-item" href="#">Portfolio</a></li>
-                                    <li><a className="dropdown-item" href="pdf/hbjoin_resume2021.pdf" target="_blank">Resume</a></li>
-                                </ul>
                             </li>
                         </ul>
                     </div>

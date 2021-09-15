@@ -16,6 +16,7 @@ const Portfolio = (props) => {
             <h2 className="accordion-header" id="headingOne" style={{
                 color: 'white',
                 backgroundColor: 'orange',
+
             }}>
             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={item.dataBsTarget} aria-expanded="true" aria-controls={item.ariaControls} style={{
                 backgroundColor: '#212529',
@@ -31,12 +32,18 @@ const Portfolio = (props) => {
                 width: '80%',
             }}>
                 <div className="accordion-body">
-                <img src={item.img} alt="something here which will be an itemalt" style={{
-                    width: '70%',
-                    height: 'auto',
-                }}></img>
-                <br></br>
-                <p>{item.description}</p>
+                    <img src={item.img} alt="something here which will be an itemalt" style={{
+                        width: '100%',
+                        height: 'auto',
+                        marginBottom:"50px"
+                    }}></img>
+                    <br></br>
+                    <p>{item.description}</p>
+                    <div className="portfolioLinks">
+                    <a href={item.deployed} target="_blank">Live URL</a>
+                    <br></br>
+                    <a href={item.repo} target="_blank">Github Repo</a>
+                    </div>
                 </div>
             </div>
         </div>

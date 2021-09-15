@@ -6,6 +6,8 @@ import Skills from './ResumeComponents/Skills'
 import ResumeProjects from './ResumeComponents/ResumeProjects';
 import Experience from './ResumeComponents/Experience'
 import Education from './ResumeComponents/Education'
+import ResumePDF from './ResumeComponents/hbjoin_resume2021.pdf'
+import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import '../styles/Resume.css';
 
 // Importing material-us and it's components
@@ -177,7 +179,17 @@ export default function Resume(props) {
         </Box>
         </Paper>
         </Box>
+    <Box style={{
+        marginTop: '50px',
+        marginBottom: '50px',
+    }}>
 
+                <PictureAsPdfIcon />
+ 
+        <a href={ResumePDF} target="_blank" download>Download Resume</a>
+
+
+    </Box>
     </Container>
 
       <ScrollTop {...props}>

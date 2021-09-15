@@ -12,7 +12,7 @@ const Info = () => {
             </div>
 
             <div className="col-4">
-                <img src={furrydress} alt="Heather in black dress" height="300px"></img>
+                <img src={furrydress} alt="Heather in black dress" className="infoImg" height="300px"></img>
 
             </div>
             <div className="col-6">

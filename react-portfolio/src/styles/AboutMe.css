@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
     
 
-    img {
+    .infoImg {
         display: none;
     }
     .container{
