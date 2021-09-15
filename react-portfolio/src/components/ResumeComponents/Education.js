@@ -83,14 +83,14 @@ export default function Education() {
                     >
                         <Box className="headerBox" >
                             <h3>
-                                Univerity of Minnesota
+                                Carl Sandburg College
                             </h3>
                             <br></br>
                             <p>
-                                Full Stack Web Development Certificate 
+                                Associates of Arts
                             </p>
                             <p>
-                                Oct 2021
+                                2019
                             </p>
  
                         </Box>                    
