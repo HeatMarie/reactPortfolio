@@ -40,7 +40,7 @@ const projects = [
       ariaControls: "collapseFour",
       title: 'Day Planner',
       img: dayPlanner,
-      description: 'This is something',
+      description: `I mean, it's a day planner. Nothing fancy, but it was fun to create. It uses Javascript, Luxon (third-party API), CSS, and HTML. `,
       deployed: 'https://heatmarie.github.io/dayPlanner/',
       repo: 'https://github.com/HeatMarie/dayPlanner'
     }
