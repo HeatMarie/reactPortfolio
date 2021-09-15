@@ -19,11 +19,11 @@ Portfolio take 2.
 
 ## Assignment
 
-The main task here was to create a MongoDB database and create a server and api's that would fetch and store the correct data. 
+The revamped portfolio, bigger, better. . . REACT! This is a portfolio use ReactJS. 
 
 ## The Results
 
-![image](images/CaptureJPG.jpg)
+![image](./images/CaptureJPG)
 
 
 
@@ -33,10 +33,8 @@ The main task here was to create a MongoDB database and create a server and api'
 https://heatmarie.github.io/reactPortfolio/#info
 
 ## Comments 
-This was. . . Well, let us say interesting. It's one of those, you finally get comfy using MySQL and you're told, "Okay now switch to mongo". Then you tag a little mongoose on top of it, and call it sweet. But its complexity was something more than just a little bit of sugar for me. It was more like dumping an entire bottle of lemon juice on top and being forced to eat the whole thing. Yet, here we are and it's done, and it's working. I still believe that all this coding stuff is some type of magic that will decide when and if it likes you. 
 
-There is still more learning to do, let's face the facts, there is always learning to do. And so I shall. We'll see what amazing things come later. Besides, I have goals to take these appss and turn them into something pretty, make them more than what they already are. The list of projects grows longer each week. 
-
+This just so happens to be my first creation with React. Here I discovered Material UI and my love for the both of them. Yes,
 
 
 ## Technologies
