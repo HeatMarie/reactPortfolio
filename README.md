@@ -23,7 +23,7 @@ The revamped portfolio, bigger, better. . . REACT! This is a portfolio use React
 
 ## The Results
 
-![image](./images/CaptureJPG)
+![image](images\Capture.JPG)
 
 
 
