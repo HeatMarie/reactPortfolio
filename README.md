@@ -19,7 +19,7 @@ Portfolio take 2.
 
 ## Assignment
 
-The revamped portfolio, bigger, better. . . REACT! This is a portfolio use ReactJS. 
+The revamped portfolio, bigger, better. . . REACT! This is a single-page application that deploys a portfolio created with ReactJS. 
 
 ## The Results
 
@@ -34,7 +34,7 @@ https://heatmarie.github.io/reactPortfolio/#info
 
 ## Comments 
 
-This just so happens to be my first creation with React. Here I discovered Material UI and my love for the both of them. Yes,
+This just so happens to be my first creation with React. Here I discovered Material UI and my love for the both ReactJS and Material UI. There are still plenty of fancy things I can add here, more so if I had the time, but as with all the apps, it's a good start and a fun experience getting play with React. 
 
 
 ## Technologies
