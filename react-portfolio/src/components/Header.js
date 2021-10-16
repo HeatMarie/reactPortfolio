@@ -36,7 +36,7 @@ const handlePageChange = (page) => setCurrentPage(page);
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         <header style= {{
             backgroundColor: 'black',
-        }}>Oh
+        }}>
             <div style={ { 
                 backgroundColor: 'black',
             } }>
