@@ -1,8 +1,15 @@
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
 .portfolio {
     text-align: center;
     width:100%;
-    margin-top: 48px;
-    margin-bottom: 30px;
+    margin: 48px 0px 50px 0px;
+    background-color:black;
     font-family: 'Rage Italic', sans-serif;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
@@ -10,9 +17,48 @@
     font-size: 4.5em;
 }
 
-#portfolio-section {
-    margin-bottom: 200px;
+.project-accordion {
+    display:flex;
+    justify-content: center;
 }
+
+.accordion-item {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+}
+
+.accordion-body {
+    width: 90%;
+}
+
+.img-and-text {
+    display:flex;
+    margin-top: 25px;
+}
+
+.img-and-text p {
+    margin-left: 50px;
+}
+
+.accordion-body img {
+    width: 50% !important;
+    height: auto !important;
+    margin-bottom: 50px !important;
+}
+
+.accordion-button {
+    background-color: #212529 !important;
+    color: orange !important;
+}
+
+.portfolio-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .portfolioLinks{
     display:flex;
@@ -21,3 +67,49 @@
     justify-content: space-evenly;
 }
 
+.portfolioLinks a:link {
+    text-decoration: none;
+    color: #f50057;
+    background-color: #212529;
+    text-align:center;
+    padding: 4px 12px;
+}
+
+.portfolioLinks a:hover {
+    background-color: white;
+    border: 2px solid #212529;
+}
+
+.portfolioLinks a:visited {
+    color: orange;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio {
+        font-size: 3em;
+    }
+
+    .portfolioLinks {
+        flex-direction: column;
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .accordion-body img {
+        margin-bottom: 10px !important;
+    }
+
+    .accordion-body img {
+        width: 100% !important;
+    }
+
+    .img-and-text {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .img-and-text p {
+        margin-left: 0px;
+    }
+}
