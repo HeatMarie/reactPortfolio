@@ -1,33 +1,22 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.94f1b9ca.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.4b62a61c.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.4b62a61c.chunk.js.map",
-    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.7064c496.js",
-    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.7064c496.js.map",
-    "static/css/2.818011ed.chunk.css": "/reactPortfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.504a8669.chunk.js": "/reactPortfolio/static/js/2.504a8669.chunk.js",
-    "static/js/2.504a8669.chunk.js.map": "/reactPortfolio/static/js/2.504a8669.chunk.js.map",
-    "static/js/3.1f756a15.chunk.js": "/reactPortfolio/static/js/3.1f756a15.chunk.js",
-    "static/js/3.1f756a15.chunk.js.map": "/reactPortfolio/static/js/3.1f756a15.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.ddb7a86e.css",
+    "main.js": "/reactPortfolio/static/js/main.1c51adf8.js",
+    "static/js/787.4048b011.chunk.js": "/reactPortfolio/static/js/787.4048b011.chunk.js",
+    "static/media/cairnstonesbsb2.jpg": "/reactPortfolio/static/media/cairnstonesbsb2.043649ba9b75e8dcafb6.jpg",
+    "static/media/blitzAndChaos.jpg": "/reactPortfolio/static/media/blitzAndChaos.7f9289260feeff97b9b4.jpg",
+    "static/media/furrydress.jpg": "/reactPortfolio/static/media/furrydress.eafe003c80df5ece17d2.jpg",
+    "static/media/techBlog.jpg": "/reactPortfolio/static/media/techBlog.a65880b6dff85fbed536.jpg",
+    "static/media/dayplanner.jpg": "/reactPortfolio/static/media/dayplanner.fedd25e950c4a8c1c71f.jpg",
+    "static/media/poggers.jpg": "/reactPortfolio/static/media/poggers.78f161e508edacb198cc.jpg",
+    "static/media/hbjoin_resume2021.pdf": "/reactPortfolio/static/media/hbjoin_resume2021.2d2f47ddd2d25b2ca89f.pdf",
     "index.html": "/reactPortfolio/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/reactPortfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.94f1b9ca.chunk.css.map": "/reactPortfolio/static/css/main.94f1b9ca.chunk.css.map",
-    "static/js/2.504a8669.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.504a8669.chunk.js.LICENSE.txt",
-    "static/media/blitzAndChaos.7f928926.jpg": "/reactPortfolio/static/media/blitzAndChaos.7f928926.jpg",
-    "static/media/cairnstonesbsb2.043649ba.jpg": "/reactPortfolio/static/media/cairnstonesbsb2.043649ba.jpg",
-    "static/media/dayplanner.fedd25e9.jpg": "/reactPortfolio/static/media/dayplanner.fedd25e9.jpg",
-    "static/media/furrydress.eafe003c.jpg": "/reactPortfolio/static/media/furrydress.eafe003c.jpg",
-    "static/media/hbjoin_resume2021.2d2f47dd.pdf": "/reactPortfolio/static/media/hbjoin_resume2021.2d2f47dd.pdf",
-    "static/media/logo.6ce24c58.svg": "/reactPortfolio/static/media/logo.6ce24c58.svg",
-    "static/media/poggers.78f161e5.jpg": "/reactPortfolio/static/media/poggers.78f161e5.jpg",
-    "static/media/techBlog.a65880b6.jpg": "/reactPortfolio/static/media/techBlog.a65880b6.jpg"
+    "main.ddb7a86e.css.map": "/reactPortfolio/static/css/main.ddb7a86e.css.map",
+    "main.1c51adf8.js.map": "/reactPortfolio/static/js/main.1c51adf8.js.map",
+    "787.4048b011.chunk.js.map": "/reactPortfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7064c496.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.504a8669.chunk.js",
-    "static/css/main.94f1b9ca.chunk.css",
-    "static/js/main.4b62a61c.chunk.js"
+    "static/css/main.ddb7a86e.css",
+    "static/js/main.1c51adf8.js"
   ]
 }
