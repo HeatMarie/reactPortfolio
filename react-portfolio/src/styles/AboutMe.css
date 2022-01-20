@@ -24,13 +24,26 @@
     .infoImg {
         display: none;
     }
-    .container{
-        flex-direction: row;
-
-    }
 
     .info {
         font-size: 3em;
+    }
+
+    .info-content-container {
+        display:flex;
+        justify-content: center;
+    }
+
+    .infoIntro {
+        display: flex;
+        flex-direction: column;
+        width: 75% !important;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        justify-self: center;
+
+
     }
 
     
