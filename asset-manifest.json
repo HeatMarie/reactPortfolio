@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.6fb018fa.css",
-    "main.js": "/reactPortfolio/static/js/main.5f0d0aa8.js",
+    "main.css": "/reactPortfolio/static/css/main.13d72ab4.css",
+    "main.js": "/reactPortfolio/static/js/main.79416713.js",
     "static/js/787.4048b011.chunk.js": "/reactPortfolio/static/js/787.4048b011.chunk.js",
     "static/media/cairnstonesbsb2.jpg": "/reactPortfolio/static/media/cairnstonesbsb2.043649ba9b75e8dcafb6.jpg",
     "static/media/blitzAndChaos.jpg": "/reactPortfolio/static/media/blitzAndChaos.7f9289260feeff97b9b4.jpg",
@@ -9,14 +9,14 @@
     "static/media/techBlog.jpg": "/reactPortfolio/static/media/techBlog.a65880b6dff85fbed536.jpg",
     "static/media/dayplanner.jpg": "/reactPortfolio/static/media/dayplanner.fedd25e950c4a8c1c71f.jpg",
     "static/media/poggers.jpg": "/reactPortfolio/static/media/poggers.78f161e508edacb198cc.jpg",
-    "static/media/hbjoin_resume2021.pdf": "/reactPortfolio/static/media/hbjoin_resume2021.2d2f47ddd2d25b2ca89f.pdf",
+    "static/media/hbjoin_resume.pdf": "/reactPortfolio/static/media/hbjoin_resume.320c1c0e8242d9a98ea0.pdf",
     "index.html": "/reactPortfolio/index.html",
-    "main.6fb018fa.css.map": "/reactPortfolio/static/css/main.6fb018fa.css.map",
-    "main.5f0d0aa8.js.map": "/reactPortfolio/static/js/main.5f0d0aa8.js.map",
+    "main.13d72ab4.css.map": "/reactPortfolio/static/css/main.13d72ab4.css.map",
+    "main.79416713.js.map": "/reactPortfolio/static/js/main.79416713.js.map",
     "787.4048b011.chunk.js.map": "/reactPortfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb018fa.css",
-    "static/js/main.5f0d0aa8.js"
+    "static/css/main.13d72ab4.css",
+    "static/js/main.79416713.js"
   ]
 }
