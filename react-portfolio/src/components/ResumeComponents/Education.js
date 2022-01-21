@@ -48,7 +48,7 @@ export default function Education() {
     <h2 style={{
         marginTop: "50px"
     }}>Education</h2>
-                <Box         
+                <Box className="education-box"       
                 display="flex"
                 flexdirection="row"
                 alignItems=" center"

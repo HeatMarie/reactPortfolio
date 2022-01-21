@@ -20,65 +20,47 @@ import {
             }}>
             <Box>
                 <h2 style={{
-                    display: 'flex',
-                    justifyContent:'center',
                     paddingTop:'32px',
                 }}>Skills</h2>
             </Box>
             <Container className="skillsContainer">
             <Box className="skillsBox">
-                <h4 style={{
-                    paddingTop: '48px'
-                }}>Back-end</h4>
-                <List>
-                    <ListItem>
+                <List className='skills-list list1'>
+                    <ListItem className='skill-list-item'>
                         Node.js
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         Express.js
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         Javascript
                     </ListItem>
-                    <ListItem>
-                        APIs
-                    </ListItem>
-                </List>
-            </Box>
-            <Box className="skillsBox"
-            display="flex"
-            flexDirection="column"
-            alignItems="flex-end"
-            >
-                <h4>Database</h4>
-                <List>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         MySQL
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         MongoDB
                     </ListItem>
                 </List>
             </Box>
             <Box className="skillsBox">
-                <h4>Front-End</h4>
-                <List>
-                    <ListItem>
+                <List className='skills-list list2'>
+                    <ListItem className='skill-list-item'>
                         React.js
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         Material Ui
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         Bootstrap
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         Responsive Design
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         CSS
                     </ListItem>
-                    <ListItem>
+                    <ListItem className='skill-list-item'>
                         HTML5
                     </ListItem>
                 </List>

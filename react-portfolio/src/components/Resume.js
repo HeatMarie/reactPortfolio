@@ -6,7 +6,7 @@ import Skills from './ResumeComponents/Skills'
 import ResumeProjects from './ResumeComponents/ResumeProjects';
 import Experience from './ResumeComponents/Experience'
 import Education from './ResumeComponents/Education'
-import ResumePDF from './ResumeComponents/hbjoin_resume2021.pdf'
+import ResumePDF from './ResumeComponents/hbjoin_resume.pdf'
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import '../styles/Resume.css';
 

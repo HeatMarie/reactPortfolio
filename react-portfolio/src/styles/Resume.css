@@ -45,8 +45,24 @@
 }
 
 .skillsBox  {
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 100% !important;
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+.skills-list {
+    display:flex;
+    flex-wrap:wrap !important;
+    list-style-type: disc !important;
+
+}
+
+.skill-list-item {
+    display:flex;
+    flex-wrap: wrap !important;
+    width: 20% !important;
+    list-style-type: disc !important;
+    margin: 0px 5px 0px 10px;
 }
 
 .experience-container{
@@ -63,3 +79,25 @@
 /* TODO: 
     Media queries
 */
+
+@media screen and (max-width: 768px) {
+    .skillsBox{
+        flex-direction: row !important;
+    }
+    .skills-list {
+        flex-direction: column;
+        align-content: center;
+    }
+    .list1{
+        float: right;
+    }
+    .list2{
+        float: left;
+    }
+
+    .education-box {
+        display:flex;
+        flex-direction: column;
+    }
+
+}
