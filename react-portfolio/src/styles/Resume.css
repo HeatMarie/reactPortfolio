@@ -53,6 +53,7 @@
 .skills-list {
     display:flex;
     flex-wrap:wrap !important;
+    width: 100% !important;
     list-style-type: disc !important;
 
 }
@@ -62,7 +63,7 @@
     flex-wrap: wrap !important;
     width: 20% !important;
     list-style-type: disc !important;
-    margin: 0px 5px 0px 10px;
+    
 }
 
 .experience-container{
