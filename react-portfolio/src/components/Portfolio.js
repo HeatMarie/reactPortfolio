@@ -4,11 +4,8 @@ import '../styles/Portfolio.css';
 const Portfolio = (props) => {
 
     const { projects } = props;
-    console.log('projects', projects)
-
 
     const _renderProject = (item, index) => {
-        console.log('ITEM', item)
         
         return (
         <div key={index} className="accordion-item">

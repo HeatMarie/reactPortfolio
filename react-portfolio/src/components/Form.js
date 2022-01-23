@@ -29,6 +29,9 @@ export default function Create() {
   const [errorMessageName, setErrorMessageName] = useState('');
   const [errorMessageEmail, setErrorMessageEmail] = useState('')
   const [errorMessageMessage, setErrorMessageMessage] = useState('')
+  const [sentMessage, setSentMessage] = useState(false);
+  // const [sentMessageMessage, setSentMessageMessage] = useState('');
+
   
   
 
@@ -101,8 +104,11 @@ export default function Create() {
     emailjs.sendForm('service_r9ncuc1', 'template_julz5pc', formRef.current, 'user_SSCp2Ltnckp7WJ06JAVTW')
       .then((result) => {
           console.log(result.text);
+          setSentMessage('Message Sent!')
+          console.log(sentMessage)
       }, (error) => {
           console.log(error.text);
+          setSentMessage('Error, please try again!')
       });
       
       setNameError(false);
@@ -186,7 +192,7 @@ export default function Create() {
           onBlur={handleMessageBlur}
           helperText={errorMessageMessage}
         />
-
+        <Typography variant='subtitle1'>{sentMessage}</Typography>
         <Button 
         onClick={sendEmail}
         type="submit"
