@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.e2a335b3.css",
-    "main.js": "/reactPortfolio/static/js/main.c8e102ee.js",
+    "main.js": "/reactPortfolio/static/js/main.00676c0d.js",
     "static/js/787.4048b011.chunk.js": "/reactPortfolio/static/js/787.4048b011.chunk.js",
     "static/media/cairnstonesbsb2.jpg": "/reactPortfolio/static/media/cairnstonesbsb2.043649ba9b75e8dcafb6.jpg",
     "static/media/blitzAndChaos.jpg": "/reactPortfolio/static/media/blitzAndChaos.7f9289260feeff97b9b4.jpg",
@@ -14,11 +14,11 @@
     "static/media/hbjoin_resume.pdf": "/reactPortfolio/static/media/hbjoin_resume.320c1c0e8242d9a98ea0.pdf",
     "index.html": "/reactPortfolio/index.html",
     "main.e2a335b3.css.map": "/reactPortfolio/static/css/main.e2a335b3.css.map",
-    "main.c8e102ee.js.map": "/reactPortfolio/static/js/main.c8e102ee.js.map",
+    "main.00676c0d.js.map": "/reactPortfolio/static/js/main.00676c0d.js.map",
     "787.4048b011.chunk.js.map": "/reactPortfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2a335b3.css",
-    "static/js/main.c8e102ee.js"
+    "static/js/main.00676c0d.js"
   ]
 }
