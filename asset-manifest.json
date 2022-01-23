@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.e2a335b3.css",
-    "main.js": "/reactPortfolio/static/js/main.79416713.js",
+    "main.js": "/reactPortfolio/static/js/main.c8e102ee.js",
     "static/js/787.4048b011.chunk.js": "/reactPortfolio/static/js/787.4048b011.chunk.js",
     "static/media/cairnstonesbsb2.jpg": "/reactPortfolio/static/media/cairnstonesbsb2.043649ba9b75e8dcafb6.jpg",
     "static/media/blitzAndChaos.jpg": "/reactPortfolio/static/media/blitzAndChaos.7f9289260feeff97b9b4.jpg",
+    "static/media/weatherDashboard.png": "/reactPortfolio/static/media/weatherDashboard.1b9855aba27a743da59f.png",
     "static/media/furrydress.jpg": "/reactPortfolio/static/media/furrydress.eafe003c80df5ece17d2.jpg",
     "static/media/techBlog.jpg": "/reactPortfolio/static/media/techBlog.a65880b6dff85fbed536.jpg",
+    "static/media/EnviroPact.png": "/reactPortfolio/static/media/EnviroPact.9d2a658a501fa891a3fe.png",
     "static/media/dayplanner.jpg": "/reactPortfolio/static/media/dayplanner.fedd25e950c4a8c1c71f.jpg",
     "static/media/poggers.jpg": "/reactPortfolio/static/media/poggers.78f161e508edacb198cc.jpg",
     "static/media/hbjoin_resume.pdf": "/reactPortfolio/static/media/hbjoin_resume.320c1c0e8242d9a98ea0.pdf",
     "index.html": "/reactPortfolio/index.html",
     "main.e2a335b3.css.map": "/reactPortfolio/static/css/main.e2a335b3.css.map",
-    "main.79416713.js.map": "/reactPortfolio/static/js/main.79416713.js.map",
+    "main.c8e102ee.js.map": "/reactPortfolio/static/js/main.c8e102ee.js.map",
     "787.4048b011.chunk.js.map": "/reactPortfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2a335b3.css",
-    "static/js/main.79416713.js"
+    "static/js/main.c8e102ee.js"
   ]
 }
