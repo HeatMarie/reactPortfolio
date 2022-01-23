@@ -3,7 +3,7 @@ import poggers from './images/poggers.jpg'
 import techBlog from './images/techBlog.jpg'
 import dayPlanner from './images/dayplanner.jpg'
 import weatherDashboard from './images/weatherDashboard.png'
-import EnviroPact from './images/EnviroPact.png'
+import enviroPact from './images/EnviroPact.png'
 
 const projects = [
     {
@@ -11,7 +11,7 @@ const projects = [
       dataBsTarget: "#collapseOne",
       ariaControls: "collapseOne",
       title: 'EnviroPact',
-      img: EnviroPact,
+      img: enviroPact,
       description: `EnviroPact is an app that makes Company and corporate ESG scores more accessible to the public. My tasks here included: helping design the layout, creating the Login, Sign up and data charts.`,
       deployed: `https://enviropact.herokuapp.com/`,
       repo: `https://github.com/HeatMarie/EnviroPact`
